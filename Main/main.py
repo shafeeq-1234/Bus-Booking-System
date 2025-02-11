@@ -27,10 +27,10 @@ def start(): #called function
         adminObj.adminLogin()
 
         print()
-        print("1. Passenger Registration :")
-        print("2. Show Ticket            :")
+        print("1. Passenger Registration: ")
+        print("2. Show Ticket           : ")
         print()
-        ch = int(input("Choose Any One Option :"))
+        ch = int(input("Choose Any One Option: "))
         if ch == 1:
             pd_obj = PassengerDataCsv()
             pd_obj.getPassengerInfo()
