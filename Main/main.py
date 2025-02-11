@@ -6,24 +6,24 @@ from admin import*
 
 global ch  # declared global variable
 
-print("---------------------------------------------------")
-print("           Welcome To LS Bus Travel        ")
-print("---------------------------------------------------")
+print("-----------------------------------------------------------------------------------------------------")
+print("                                      Welcome To LS Bus Travel                                       ")
+print("-----------------------------------------------------------------------------------------------------")
 print()
 
 def start(): #called function
-    print("1. Admin Registration :")
-    print("2. Admin Login        :")
+    print("1. Admin Registration : ")
+    print("2. Admin Login        : ")
     print()
     adminObj = Admin()
-    ch = int(input("Choose Correct option :"))
+    ch = int(input("Choose Correct option: "))
 
     if ch == 1:
         #admin class object creation
         adminObj.adminRegistration()
 
     if ch == 2:
-        
+
         adminObj.adminLogin()
 
         print()
